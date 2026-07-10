@@ -1,0 +1,20 @@
+<svg width="880" height="64" viewBox="0 0 880 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="By the numbers — GitHub activity for GekkeBoyJeff.">
+  <defs>
+    <pattern id="dotsN" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3B82F6" opacity="0.10">
+        <animate attributeName="opacity" values="0.05;0.15;0.05" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="22 22" dur="16s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="clipN"><rect width="880" height="64" rx="16"/></clipPath>
+  </defs>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}</style>
+  <g clip-path="url(#clipN)">
+    <rect width="880" height="64" fill="#0A1128"/>
+    <rect width="880" height="64" fill="url(#dotsN)"/>
+    <rect x="32" y="28" width="7" height="7" rx="2" fill="#A3E635"/>
+    <text class="m" x="50" y="40" font-size="12" font-weight="700" letter-spacing="3" fill="#60A5FA">BY THE NUMBERS</text>
+    <text class="m" x="848" y="40" font-size="12" fill="#6E8BD0" text-anchor="end">github.com/GekkeBoyJeff</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="63" rx="16" fill="none" stroke="#1E3A8A"/>
+</svg>

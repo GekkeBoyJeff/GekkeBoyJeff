@@ -1,0 +1,60 @@
+<svg width="880" height="210" viewBox="0 0 880 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack — front-end: JavaScript, TypeScript, Vue.js, Nuxt, Next.js, Tailwind, Storybook. Back-end and tooling: Node.js, Express, MongoDB, EJS, Socket.io, Git. Also Handlebars, Fabricator and WordPress.">
+  <defs>
+    <radialGradient id="gS1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gS2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A3E635"/><stop offset="100%" stop-color="#A3E635" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softS" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="46"/></filter>
+    <pattern id="dotsS" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3B82F6" opacity="0.11">
+        <animate attributeName="opacity" values="0.06;0.16;0.06" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="22 22" dur="16s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="clipS"><rect width="880" height="210" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .s{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .b1{animation:sd1 17s ease-in-out infinite alternate}
+    .b2{animation:sd2 21s ease-in-out infinite alternate}
+    @keyframes sd1{from{transform:translate(0,0)}to{transform:translate(90px,26px)}}
+    @keyframes sd2{from{transform:translate(0,0)}to{transform:translate(-80px,-18px)}}
+    .ra{animation:rise .6s cubic-bezier(.22,.72,.24,1) both}
+    .rb{animation:rise .6s cubic-bezier(.22,.72,.24,1) .14s both}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    @media (prefers-reduced-motion:reduce){.b1,.b2,.ra,.rb{animation:none}}
+  </style>
+  <g clip-path="url(#clipS)">
+    <rect width="880" height="210" fill="#0A1128"/>
+    <g class="b1"><ellipse cx="150" cy="40" rx="240" ry="150" fill="url(#gS1)" filter="url(#softS)"/></g>
+    <g class="b2"><ellipse cx="820" cy="200" rx="220" ry="140" fill="url(#gS2)" opacity="0.5" filter="url(#softS)"/></g>
+    <rect width="880" height="210" fill="url(#dotsS)"/>
+
+    <text class="m" x="30" y="42" font-size="12" font-weight="700" letter-spacing="3" fill="#60A5FA">STACK</text>
+
+    <g class="ra">
+      <g><rect x="30" y="64" width="126" height="40" rx="20" fill="#111C36"/><text class="m" x="93" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">JavaScript</text></g>
+      <g><rect x="167" y="64" width="126" height="40" rx="20" fill="#111C36"/><text class="m" x="230" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">TypeScript</text></g>
+      <g><rect x="304" y="64" width="89" height="40" rx="20" fill="#111C36"/><text class="m" x="348" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">Vue.js</text></g>
+      <g><rect x="404" y="64" width="71" height="40" rx="20" fill="#111C36"/><text class="m" x="439" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">Nuxt</text></g>
+      <g><rect x="486" y="64" width="98" height="40" rx="20" fill="#111C36"/><text class="m" x="535" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">Next.js</text></g>
+      <g><rect x="595" y="64" width="108" height="40" rx="20" fill="#111C36"/><text class="m" x="649" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">Tailwind</text></g>
+      <g><rect x="714" y="64" width="117" height="40" rx="20" fill="#111C36"/><text class="m" x="772" y="90" font-size="15" fill="#93C5FD" text-anchor="middle">Storybook</text></g>
+    </g>
+
+    <g class="rb">
+      <g><rect x="30" y="120" width="98" height="40" rx="20" fill="#0E1D14"/><text class="m" x="79" y="146" font-size="15" fill="#BEF264" text-anchor="middle">Node.js</text></g>
+      <g><rect x="139" y="120" width="98" height="40" rx="20" fill="#0E1D14"/><text class="m" x="188" y="146" font-size="15" fill="#BEF264" text-anchor="middle">Express</text></g>
+      <g><rect x="248" y="120" width="98" height="40" rx="20" fill="#0E1D14"/><text class="m" x="297" y="146" font-size="15" fill="#BEF264" text-anchor="middle">MongoDB</text></g>
+      <g><rect x="357" y="120" width="62" height="40" rx="20" fill="#0E1D14"/><text class="m" x="388" y="146" font-size="15" fill="#BEF264" text-anchor="middle">EJS</text></g>
+      <g><rect x="430" y="120" width="117" height="40" rx="20" fill="#0E1D14"/><text class="m" x="488" y="146" font-size="15" fill="#BEF264" text-anchor="middle">Socket.io</text></g>
+      <g><rect x="558" y="120" width="62" height="40" rx="20" fill="#0E1D14"/><text class="m" x="589" y="146" font-size="15" fill="#BEF264" text-anchor="middle">Git</text></g>
+    </g>
+
+    <text class="m" x="30" y="190" font-size="12" fill="#6E8BD0">also — Handlebars · Fabricator · WordPress</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="209" rx="18" fill="none" stroke="#1E3A8A"/>
+</svg>

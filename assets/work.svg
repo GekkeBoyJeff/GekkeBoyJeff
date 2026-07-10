@@ -1,0 +1,97 @@
+<svg width="880" height="476" viewBox="0 0 880 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selected work. Next.js + TS Starter (current focus) — Next.js, TypeScript, Storybook: a component library with Zod-schema tooling and a visual page builder. Cr8 — Express, MongoDB, Node, EJS: back-end lead, auth, sanitising middleware, a reverse-engineered API. Portfolio — Vue, Nuxt, Tailwind, TypeScript: bento-style, component-driven, fully self-built. Barebone chat app — Express, MongoDB, Socket.io, Node: real-time messaging over websockets. Barcode scanner — Express, Node, API, JavaScript: point a camera at a product, get live data back. Baron Samedi fotografie — WordPress: a client site for a photography studio.">
+  <defs>
+    <radialGradient id="gW1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gW2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#A3E635"/><stop offset="100%" stop-color="#A3E635" stop-opacity="0"/></radialGradient>
+    <filter id="fW" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="50"/></filter>
+    <pattern id="dW" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3B82F6" opacity="0.10">
+        <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="22 22" dur="17s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="cW"><rect width="880" height="476" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .s{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .nm{font-size:16px;font-weight:700;fill:#EAF1FB}
+    .st{font-size:11px;letter-spacing:0.3px;fill:#6E8BD0}
+    .gs{font-size:12.5px;fill:#93A3BC}
+    .b1{animation:w1 19s ease-in-out infinite alternate}
+    .b2{animation:w2 23s ease-in-out infinite alternate}
+    @keyframes w1{from{transform:translate(0,0)}to{transform:translate(70px,30px)}}
+    @keyframes w2{from{transform:translate(0,0)}to{transform:translate(-60px,-24px)}}
+    .pg{transform-box:fill-box;transform-origin:center;animation:pg 2.8s cubic-bezier(0,0,.2,1) infinite}
+    @keyframes pg{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(2.6)}}
+    @media (prefers-reduced-motion:reduce){.b1,.b2,.pg{animation:none}}
+  </style>
+  <g clip-path="url(#cW)">
+    <rect width="880" height="476" fill="#0A1128"/>
+    <g class="b1"><ellipse cx="140" cy="60" rx="260" ry="170" fill="url(#gW1)" filter="url(#fW)"/></g>
+    <g class="b2"><ellipse cx="800" cy="440" rx="240" ry="160" fill="url(#gW2)" opacity="0.5" filter="url(#fW)"/></g>
+    <rect width="880" height="476" fill="url(#dW)"/>
+
+    <!-- row 1 -->
+    <g>
+      <rect x="32" y="32" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="54" cy="60" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="54" cy="60" r="5" fill="#A3E635"/>
+      <text class="s nm" x="72" y="66">Next.js + TS Starter</text>
+      <rect x="306" y="46" width="102" height="22" rx="11" fill="#16240F"/>
+      <text class="m" x="357" y="61" font-size="10" fill="#A3E635" text-anchor="middle">current focus</text>
+      <text class="m st" x="54" y="98">Next.js · TypeScript · Storybook</text>
+      <text class="s gs" x="54" y="124">Component library with Zod-schema tooling</text>
+      <text class="s gs" x="54" y="144">and a visual page builder.</text>
+    </g>
+    <g>
+      <rect x="450" y="32" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="472" cy="60" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="472" cy="60" r="5" fill="#A3E635"/>
+      <text class="s nm" x="490" y="66">Cr8</text>
+      <text class="m st" x="472" y="98">Express · MongoDB · Node · EJS</text>
+      <text class="s gs" x="472" y="124">Back-end lead: auth, sanitising middleware,</text>
+      <text class="s gs" x="472" y="144">and a reverse-engineered API.</text>
+    </g>
+
+    <!-- row 2 -->
+    <g>
+      <rect x="32" y="176" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="54" cy="204" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="54" cy="204" r="5" fill="#A3E635"/>
+      <text class="s nm" x="72" y="210">Portfolio</text>
+      <text class="m st" x="54" y="242">Vue · Nuxt · Tailwind · TypeScript</text>
+      <text class="s gs" x="54" y="268">Bento-style, component-driven,</text>
+      <text class="s gs" x="54" y="288">fully self-built — from design to deploy.</text>
+    </g>
+    <g>
+      <rect x="450" y="176" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="472" cy="204" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="472" cy="204" r="5" fill="#A3E635"/>
+      <text class="s nm" x="490" y="210">Barebone chat app</text>
+      <text class="m st" x="472" y="242">Express · MongoDB · Socket.io · Node</text>
+      <text class="s gs" x="472" y="268">Real-time messaging over websockets,</text>
+      <text class="s gs" x="472" y="288">stripped to the essentials.</text>
+    </g>
+
+    <!-- row 3 -->
+    <g>
+      <rect x="32" y="320" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="54" cy="348" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="54" cy="348" r="5" fill="#A3E635"/>
+      <text class="s nm" x="72" y="354">Barcode scanner</text>
+      <text class="m st" x="54" y="386">Express · Node · API · JavaScript</text>
+      <text class="s gs" x="54" y="412">Point a camera at a product,</text>
+      <text class="s gs" x="54" y="432">get live data back.</text>
+    </g>
+    <g>
+      <rect x="450" y="320" width="398" height="124" rx="14" fill="#0E1A38" stroke="#1E3A8A"/>
+      <circle class="pg" cx="472" cy="348" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+      <circle cx="472" cy="348" r="5" fill="#A3E635"/>
+      <text class="s nm" x="490" y="354">Baron Samedi fotografie</text>
+      <text class="m st" x="472" y="386">WordPress</text>
+      <text class="s gs" x="472" y="412">A client site for a photography studio,</text>
+      <text class="s gs" x="472" y="432">built to be handed over.</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="475" rx="18" fill="none" stroke="#1E3A8A"/>
+</svg>
