@@ -8,6 +8,7 @@
 <a href="https://nl.linkedin.com/in/jeffrey-ullers"><img src="https://img.shields.io/badge/LinkedIn-Jeffrey%20Ullers-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1128" alt="LinkedIn — Jeffrey Ullers"/></a>&nbsp;
 <a href="https://www.instagram.com/justjeffvibes/"><img src="https://img.shields.io/badge/Instagram-justjeffvibes-60A5FA?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A1128" alt="Instagram — justjeffvibes"/></a>
 
+<br/>
 
 <img src="./assets/stack.svg" width="100%" alt="Stack — front-end: JavaScript, TypeScript, Vue.js, Nuxt, Next.js, Tailwind, Storybook. Back-end and tooling: Node.js, Express, MongoDB, EJS, Socket.io, Git. Also Handlebars, Fabricator, WordPress."/>
 
