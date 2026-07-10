@@ -1,0 +1,26 @@
+<svg width="880" height="64" viewBox="0 0 880 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selected work — the cards below link to their repositories where one exists.">
+  <defs>
+    <pattern id="dotsWH" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3B82F6" opacity="0.10">
+        <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="22 22" dur="15s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="clipWH"><rect width="880" height="64" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .pg{transform-box:fill-box;transform-origin:center;animation:pg 2.6s cubic-bezier(0,0,.2,1) infinite}
+    @keyframes pg{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(2.6)}}
+    @media (prefers-reduced-motion:reduce){.pg{animation:none}}
+  </style>
+  <g clip-path="url(#clipWH)">
+    <rect width="880" height="64" fill="#0A1128"/>
+    <rect width="880" height="64" fill="url(#dotsWH)"/>
+    <circle class="pg" cx="35" cy="32" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+    <circle cx="35" cy="32" r="5" fill="#A3E635"/>
+    <text class="m" x="52" y="40" font-size="12" font-weight="700" letter-spacing="3" fill="#60A5FA">SELECTED WORK</text>
+    <text class="m" x="848" y="40" font-size="12" fill="#6E8BD0" text-anchor="end">6 things I've built</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="63" rx="16" fill="none" stroke="#1E3A8A"/>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="880" height="256" viewBox="0 0 880 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="By the numbers. Most used languages: JavaScript 67.45 percent, TypeScript 15.70 percent, EJS 5.59 percent, CSS 5.45 percent, Vue 3.70 percent, HTML 1.93 percent. Active on GitHub since November 2020, six selected projects, front-end and full-stack.">
+  <defs>
+    <radialGradient id="gN1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+    <filter id="fN" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="46"/></filter>
+    <pattern id="dN" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3B82F6" opacity="0.10">
+        <animate attributeName="opacity" values="0.05;0.15;0.05" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="22 22" dur="16s" repeatCount="indefinite"/>
+    </pattern>
+    <linearGradient id="sheenG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="barClip"><rect x="32" y="104" width="816" height="18" rx="9"/></clipPath>
+    <clipPath id="clipN"><rect width="880" height="256" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .s{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+    .b1{animation:nb 20s ease-in-out infinite alternate}
+    @keyframes nb{from{transform:translate(0,0)}to{transform:translate(80px,24px)}}
+    .pg{transform-box:fill-box;transform-origin:center;animation:pg 2.8s cubic-bezier(0,0,.2,1) infinite}
+    @keyframes pg{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(2.6)}}
+    .sheen{animation:sheen 5s ease-in-out infinite}
+    @keyframes sheen{0%{transform:translateX(-220px)}55%,100%{transform:translateX(880px)}}
+    @media (prefers-reduced-motion:reduce){.b1,.pg,.sheen{animation:none}}
+  </style>
+  <g clip-path="url(#clipN)">
+    <rect width="880" height="256" fill="#0A1128"/>
+    <g class="b1"><ellipse cx="770" cy="40" rx="250" ry="160" fill="url(#gN1)" opacity="0.4" filter="url(#fN)"/></g>
+    <rect width="880" height="256" fill="url(#dN)"/>
+
+    <circle class="pg" cx="35" cy="41" r="5" fill="none" stroke="#A3E635" stroke-width="2"/>
+    <circle cx="35" cy="41" r="5" fill="#A3E635"/>
+    <text class="m" x="52" y="49" font-size="12" font-weight="700" letter-spacing="3" fill="#60A5FA">BY THE NUMBERS</text>
+    <text class="m" x="848" y="49" font-size="12" fill="#6E8BD0" text-anchor="end">github.com/GekkeBoyJeff</text>
+
+    <text class="m" x="32" y="92" font-size="11" font-weight="700" letter-spacing="2.5" fill="#6E8BD0">MOST USED LANGUAGES</text>
+
+    <rect x="32" y="104" width="816" height="18" rx="9" fill="#0E1A38"/>
+    <g clip-path="url(#barClip)">
+      <rect x="32"  y="104" width="551" height="18" fill="#F1E05A"/>
+      <rect x="583" y="104" width="128" height="18" fill="#3178C6"/>
+      <rect x="711" y="104" width="46"  height="18" fill="#A91E50"/>
+      <rect x="757" y="104" width="45"  height="18" fill="#563D7C"/>
+      <rect x="802" y="104" width="30"  height="18" fill="#41B883"/>
+      <rect x="832" y="104" width="16"  height="18" fill="#E34C26"/>
+      <rect class="sheen" x="-220" y="104" width="200" height="18" fill="url(#sheenG)"/>
+    </g>
+
+    <circle cx="32"  cy="166" r="5" fill="#F1E05A"/><text class="s" x="48"  y="171" font-size="13.5" fill="#DCE3EC">JavaScript <tspan class="m" fill="#6E8BD0" font-size="12">67.45%</tspan></text>
+    <circle cx="320" cy="166" r="5" fill="#A91E50"/><text class="s" x="336" y="171" font-size="13.5" fill="#DCE3EC">EJS <tspan class="m" fill="#6E8BD0" font-size="12">5.59%</tspan></text>
+    <circle cx="608" cy="166" r="5" fill="#41B883"/><text class="s" x="624" y="171" font-size="13.5" fill="#DCE3EC">Vue <tspan class="m" fill="#6E8BD0" font-size="12">3.70%</tspan></text>
+
+    <circle cx="32"  cy="198" r="5" fill="#3178C6"/><text class="s" x="48"  y="203" font-size="13.5" fill="#DCE3EC">TypeScript <tspan class="m" fill="#6E8BD0" font-size="12">15.70%</tspan></text>
+    <circle cx="320" cy="198" r="5" fill="#563D7C"/><text class="s" x="336" y="203" font-size="13.5" fill="#DCE3EC">CSS <tspan class="m" fill="#6E8BD0" font-size="12">5.45%</tspan></text>
+    <circle cx="608" cy="198" r="5" fill="#E34C26"/><text class="s" x="624" y="203" font-size="13.5" fill="#DCE3EC">HTML <tspan class="m" fill="#6E8BD0" font-size="12">1.93%</tspan></text>
+
+    <line x1="32" y1="224" x2="848" y2="224" stroke="#1E3A8A" stroke-width="1"/>
+    <text class="m" x="32" y="245" font-size="12" fill="#7C8BA5">active since Nov 2020 <tspan fill="#3B5680">·</tspan> 6 selected projects <tspan fill="#3B5680">·</tspan> front-end, full-stack</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="255" rx="18" fill="none" stroke="#1E3A8A"/>
+</svg>
